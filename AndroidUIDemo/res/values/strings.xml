@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidUIDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_text_view">TextViewActivity</string>
+	<string name="title_textview">TextView</string>
+	<string name="title_textview_web">https://www.google.com/</string>
+	<string name="text_default">default</string>
+	<string name="textview_xml">start_textview_xml_henchang_henchang_values_end</string>
+	<string name="textview_code">textview_code</string>
+</resources>

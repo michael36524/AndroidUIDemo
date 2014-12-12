@@ -20,6 +20,6 @@ public class TextViewActivity extends Activity {
 		textview.setBackgroundResource(R.color.blue); // background color
 		textview.setTextColor(android.graphics.Color.RED); // text color
 		textview.setGravity(Gravity.CENTER); // gravity
-		textview.setTypeface(Typeface.create("sans", Typeface.BOLD)); //
+		textview.setTypeface(Typeface.create("sans", Typeface.BOLD)); // typeface
 	}
 }

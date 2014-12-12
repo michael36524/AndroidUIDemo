@@ -23,8 +23,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tt.androiduidemo.ui.TextViewActivity"
+            android:name=".ui.TextViewActivity"
             android:label="@string/title_activity_text_view" >
+        </activity>
+        <activity
+            android:name="com.tt.androiduidemo.ui.EditTextActivity"
+            android:label="@string/title_activity_edit_text" >
         </activity>
     </application>
 

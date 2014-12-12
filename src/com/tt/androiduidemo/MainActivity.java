@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import com.tt.androiduidemo.ui.EditTextActivity;
 import com.tt.androiduidemo.ui.TextViewActivity;
 
 import android.app.Activity;
@@ -17,15 +18,13 @@ import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
 public class MainActivity extends Activity {
-	private String[] controls = new String[] { "TextView" };
+	private String[] controls = new String[] { "TextView","EditText" };
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		Log.v("tt", "0");
+		//Log.v("tt", "start");
 		super.onCreate(savedInstanceState);
-		Log.v("tt", "1");
 		setContentView(R.layout.activity_main);
-		Log.v("tt", "2");
 		ListView listview = (ListView) findViewById(R.id.lvUITitle);
 		SimpleAdapter adapter = new SimpleAdapter(this, GetData(),
 				R.layout.mainlistitem, new String[] { "title" },
@@ -54,6 +53,9 @@ public class MainActivity extends Activity {
 			switch (position) {
 			case 0:
 				obj = TextViewActivity.class;
+				break;
+			case 1:
+				obj = EditTextActivity.class;
 				break;
 			default:
 				break;
